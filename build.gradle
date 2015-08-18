@@ -1,0 +1,23 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+version '1.0'
+
+mainClassName = 'org.dsa.iot.template.Main'
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.iot-dsa:dslink:0.8.0'
+}
+
+run {
+    args System.getProperty("exec.args", "").split()
+    workingDir project.buildDir
+}
+
+applicationDistribution.from new File(project.projectDir, "/dslink.json")

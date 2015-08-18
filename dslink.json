@@ -1,0 +1,43 @@
+{
+  "name": "template-dslink-java",
+  "version": "1.0",
+  "description": "An example template for Java DSLinks",
+  "license": "Apache",
+  "author": {
+    "name": "Cangji Wu",
+    "email": "wucangji@gmail.com"
+  },
+  "main": "bin/template-dslink-java",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IOT-DSA/template-dslink-java"
+  },
+  "bugs": {
+    "url": "https://github.com/IOT-DSA/template-dslink-java/issues"
+  },
+  "configs": {
+    "name": {
+      "type": "string",
+      "default": "template"
+    },
+    "broker": {
+      "type": "url"
+    },
+    "nodes": {
+      "type": "path",
+      "default": "nodes.json"
+    },
+    "key": {
+      "type": "path",
+      "default": ".key"
+    },
+    "log": {
+      "type": "enum",
+      "default": "info"
+    },
+    "handler_class": {
+      "type": "string",
+      "default": "org.dsa.iot.template.Main"
+    }
+  }
+}
