@@ -3,7 +3,7 @@ apply plugin: 'application'
 
 version '1.0'
 
-mainClassName = 'org.dsa.iot.template.Main'
+mainClassName = 'iotdm/Main'
 sourceCompatibility = 1.7
 targetCompatibility = 1.7
 
@@ -13,6 +13,7 @@ repositories {
 
 dependencies {
     compile 'org.iot-dsa:dslink:0.8.0'
+    compile fileTree('external')
 }
 
 run {

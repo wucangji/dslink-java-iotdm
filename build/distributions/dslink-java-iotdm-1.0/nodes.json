@@ -1,0 +1,8 @@
+{
+  "example" : {
+    "$name" : "Example",
+    "$is" : "node",
+    "$type" : "string",
+    "?value" : "Hello world2"
+  }
+}

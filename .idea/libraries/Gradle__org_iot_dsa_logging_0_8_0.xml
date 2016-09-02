@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.iot-dsa:logging:0.8.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.iot-dsa/logging/0.8.0/6b97501a5ccbe909964907127601d76981c43e78/logging-0.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.iot-dsa/logging/0.8.0/593b4ed8a9efec2ededae94e282aa8bd7386efb0/logging-0.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

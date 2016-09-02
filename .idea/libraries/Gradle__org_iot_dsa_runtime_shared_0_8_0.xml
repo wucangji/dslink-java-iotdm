@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.iot-dsa:runtime_shared:0.8.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.iot-dsa/runtime_shared/0.8.0/4b83bf61b1969bd930a67a802134f82f68b714fb/runtime_shared-0.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.iot-dsa/runtime_shared/0.8.0/975c8e80234ee8d120a34c4f1ae540383b959b71/runtime_shared-0.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,43 @@
+{
+  "name": "dslink-java-iotdm",
+  "version": "1.0",
+  "description": "A dslink for connecting iotdm in JAVA",
+  "license": "Apache",
+  "author": {
+    "name": "Cangji Wu",
+    "email": "wucangji@gmail.com"
+  },
+  "main": "bin/dslink-java-iotdm",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wucangji/dslink-java-iotdm"
+  },
+  "bugs": {
+    "url": "https://github.com/wucangji/dslink-java-iotdm/issues"
+  },
+  "configs": {
+    "name": {
+      "type": "string",
+      "default": "IOTDM"
+    },
+    "broker": {
+      "type": "url"
+    },
+    "nodes": {
+      "type": "path",
+      "default": "nodes.json"
+    },
+    "key": {
+      "type": "path",
+      "default": ".key"
+    },
+    "log": {
+      "type": "enum",
+      "default": "info"
+    },
+    "handler_class": {
+      "type": "string",
+      "default": "iotdm.Main"
+    }
+  }
+}
